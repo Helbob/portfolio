@@ -1,3 +1,5 @@
+/* Genrelt */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,6 +8,67 @@
 img {
   width: 100%;
 }
+
+html {
+  height: 100%;
+}
+
+.ww {
+  display: none;
+}
+
+main {
+  padding: 7%;
+}
+
+#om_mig p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  padding-right: 20%;
+  text-align: justify;
+  line-height: 1.7rem;
+}
+#om_mig h2 {
+  padding-bottom: 1%;
+  padding-top: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cv h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 2rem;
+}
+
+.first {
+  border: 1px solid grey;
+  padding: 5%;
+  width: 100%;
+}
+
+.second {
+  border: 1px solid grey;
+  background-color: black;
+  color: white;
+  padding: 5%;
+  width: 100%;
+}
+
+.cv {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Burger menu */
 
 nav.shown {
   padding-top: 1rem;
@@ -91,6 +154,8 @@ hr {
   margin: 0 auto;
 }
 
+/* Alt i main mobil*/
+
 #white {
   grid-row: 2;
   text-align: center;
@@ -110,16 +175,13 @@ h1 {
   font-size: 11rem;
 }
 
-html {
-  height: 100%;
-}
-
 #grid {
   display: grid;
   grid-template-rows: 1fr 1fr;
 }
 
 @media (min-width: 600px) {
+  /* Alt i main */
   #white {
     grid-row: 2;
     text-align: center;
@@ -144,6 +206,8 @@ html {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
   }
+
+  /*Burger menu*/
   nav {
     display: none;
   }
@@ -215,5 +279,75 @@ html {
   hr {
     width: 50%;
     margin: 0 auto;
+  }
+
+  /* Om mig */
+
+  main {
+    padding: 0%;
+  }
+
+  #om_mig {
+    padding: 5%;
+    display: flex;
+  }
+
+  #om_mig p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding-right: 20%;
+    text-align: justify;
+    line-height: 1.7rem;
+  }
+  #om_mig h2 {
+    padding-bottom: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 2rem;
+  }
+  .test {
+    width: 75%;
+  }
+
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .cv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 2%;
+  }
+
+  .cv h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 2rem;
+  }
+  .first {
+    border: 1px solid grey;
+    padding: 2%;
+    width: 20%;
+  }
+
+  .second {
+    border: 1px solid grey;
+    background-color: black;
+    color: white;
+    padding: 2%;
+    grid-row: 1;
+    grid-column: 4;
+    width: 20%;
+  }
+
+  .pad {
+    padding-bottom: 2%;
+  }
+
+  .ww {
+    display: inline;
   }
 }

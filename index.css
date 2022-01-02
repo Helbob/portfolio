@@ -1,0 +1,14 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background: linear-gradient(180deg, white 50%, black 50%) no-repeat;
+}
+
+@media (min-width: 600px) {
+  body {
+    height: 100%;
+    background: linear-gradient(180deg, white 50%, black 50%) no-repeat;
+  }
+}

@@ -21,16 +21,19 @@ main {
   padding: 7%;
 }
 
+/* Om mig */
+
 #om_mig p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
-  padding-right: 20%;
+  padding: 2%;
   text-align: justify;
   line-height: 1.7rem;
 }
 #om_mig h2 {
   padding-bottom: 1%;
   padding-top: 10%;
+  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
   font-size: 2rem;
@@ -49,17 +52,19 @@ p {
 }
 
 .first {
-  border: 1px solid grey;
+  border: 1px solid white;
   padding: 5%;
-  width: 100%;
+  width: 70%;
+  background-color: #f2cf63;
+  margin: 2%;
 }
 
 .second {
-  border: 1px solid grey;
+  border: 1px solid white;
   background-color: black;
   color: white;
   padding: 5%;
-  width: 100%;
+  width: 70%;
 }
 
 .cv {
@@ -172,7 +177,30 @@ hr {
 
 h1 {
   font-family: "Bebas Neue", cursive;
-  font-size: 11rem;
+  font-size: 10rem;
+  color: black;
+}
+/* Projekter */
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+.border {
+  border: grey 1px solid;
+  padding: 5%;
+  margin: 5%;
+}
+
+h3 {
+  padding: 3% 0% 0% 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 2rem;
+  text-align: center;
 }
 
 #grid {
@@ -190,7 +218,6 @@ h1 {
   }
 
   #black {
-    color: white;
     text-align: center;
     grid-row: 3;
     grid-column: 3/5;
@@ -286,7 +313,11 @@ h1 {
   main {
     padding: 0%;
   }
-
+  #wrapper {
+    background: #f2cf63;
+    max-width: 1650px;
+    margin: 0 auto;
+  }
   #om_mig {
     padding: 5%;
     display: flex;
@@ -294,7 +325,7 @@ h1 {
 
   #om_mig p {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding-right: 20%;
     text-align: justify;
     line-height: 1.7rem;
@@ -303,7 +334,8 @@ h1 {
     padding-bottom: 1%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    padding-top: 5%;
   }
   .test {
     width: 75%;
@@ -328,19 +360,22 @@ h1 {
     font-size: 2rem;
   }
   .first {
-    border: 1px solid grey;
+    border: 1px solid white;
     padding: 2%;
     width: 20%;
+    background-color: #f2cf63;
+    margin: 1%;
   }
 
   .second {
-    border: 1px solid grey;
+    border: 1px solid white;
     background-color: black;
     color: white;
     padding: 2%;
     grid-row: 1;
     grid-column: 4;
     width: 20%;
+    margin: 1%;
   }
 
   .pad {
@@ -349,5 +384,70 @@ h1 {
 
   .ww {
     display: inline;
+  }
+  /* Projekter*/
+
+  #gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 3%;
+  }
+
+  .border {
+    border: grey 1px solid;
+    padding: 2%;
+    margin: 2%;
+  }
+
+  h3 {
+    padding: 3% 0% 0% 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .container {
+    position: relative;
+  }
+
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .container:hover .image {
+    opacity: 0.5;
+  }
+
+  .container:hover .middle {
+    opacity: 1;
+  }
+
+  .text {
+    color: black;
+    border-radius: 0.2rem;
+    padding: 2%;
+  }
+
+  #gallery a {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
   }
 }

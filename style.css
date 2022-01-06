@@ -24,7 +24,7 @@ main {
 /* Om mig */
 
 #om_mig p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   padding: 2%;
   text-align: justify;
@@ -34,20 +34,20 @@ main {
   padding-bottom: 1%;
   padding-top: 10%;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 100;
   font-size: 2rem;
 }
 
 p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .cv h2 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 100;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 7%;
+  padding-bottom: 7%;
   font-size: 2rem;
 }
 
@@ -132,9 +132,9 @@ li {
 }
 
 a {
-  font-size: 40px;
+  font-size: 2rem;
   text-decoration: none;
-  font-family: "Bebas Neue", cursive;
+  font-family: "Josefin Sans", sans-serif;
   color: black;
   letter-spacing: 1px;
 }
@@ -162,7 +162,7 @@ hr {
 /* Alt i main mobil*/
 
 #white {
-  grid-row: 2;
+  grid-row: 3;
   text-align: center;
   grid-column: 2/5;
   padding-top: 2%;
@@ -171,13 +171,15 @@ hr {
 #black {
   color: white;
   text-align: center;
-  grid-row: 3;
+  grid-row: 4;
+  padding-top: 5%;
   grid-column: 3/5;
 }
 
 h1 {
-  font-family: "Bebas Neue", cursive;
-  font-size: 10rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 6rem;
   color: black;
 }
 /* Projekter */
@@ -197,7 +199,7 @@ h1 {
 
 h3 {
   padding: 3% 0% 0% 0%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 100;
   font-size: 2rem;
   text-align: center;
@@ -205,7 +207,7 @@ h3 {
 
 #grid {
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .container {
@@ -234,8 +236,18 @@ h3 {
 
 #gallery a {
   color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.9rem;
+}
+
+/* Franske */
+#franske h3 {
+  padding-bottom: 1%;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 2rem;
+  font-weight: 100;
+  padding-left: 2%;
+  font-size: 2.5rem;
+  padding-top: 5%;
 }
 
 @media (min-width: 600px) {
@@ -251,11 +263,13 @@ h3 {
     text-align: center;
     grid-row: 3;
     grid-column: 3/5;
+    padding: 3% 0% 3% 10%;
   }
 
   h1 {
-    font-family: "Bebas Neue", cursive;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 11rem;
+    font-weight: 700;
   }
 
   #grid {
@@ -311,9 +325,10 @@ h3 {
     margin: auto;
   }
   a {
-    font-size: 40px;
+    font-size: 3rem;
     text-decoration: none;
-    font-family: "Bebas Neue", cursive;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: medium;
     color: black;
     letter-spacing: 1px;
   }
@@ -336,6 +351,7 @@ h3 {
   hr {
     width: 50%;
     margin: 0 auto;
+    border: black solid 1px;
   }
 
   /* Om mig */
@@ -354,25 +370,27 @@ h3 {
   }
 
   #om_mig p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 1.2rem;
-    padding-right: 20%;
+    padding-right: 10%;
     text-align: justify;
     line-height: 1.7rem;
   }
   #om_mig h2 {
     padding-bottom: 1%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: "Montserrat", sans-serif;
+    font-weight: medium;
+    padding-left: 2%;
     font-size: 2.5rem;
     padding-top: 5%;
+    text-align: left;
   }
   .test {
     width: 75%;
   }
 
   p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat", sans-serif;
   }
   .cv {
     display: flex;
@@ -383,10 +401,10 @@ h3 {
   }
 
   .cv h2 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 100;
     padding-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
     font-size: 2rem;
   }
   .first {
@@ -432,8 +450,7 @@ h3 {
 
   h3 {
     padding: 3% 0% 0% 0%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: "Montserrat", sans-serif;
     font-size: 2rem;
     text-align: center;
   }
@@ -476,7 +493,58 @@ h3 {
 
   #gallery a {
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 2rem;
+  }
+
+  main {
+    padding: 0%;
+  }
+  .bgimgcolor {
+    background: #f2cf63;
+    max-width: 1650px;
+    margin: 0 auto;
+  }
+  #franske {
+    padding: 5%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #franske p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  #franske h2 {
+    padding-bottom: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding-top: 5%;
+    padding-bottom: 7%;
+  }
+
+  #franske h3 {
+    padding-bottom: 1%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: medium;
+    font-size: 1.7rem;
+    text-align: left;
+    padding: 0% 2% 2% 0%;
+  }
+  .test2 {
+    width: 33%;
+  }
+
+  .titel {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 2.3rem;
+    font-weight: 100;
+  }
+  #wrapper2 {
+    max-width: 1500px;
+    margin: 0 auto;
   }
 }

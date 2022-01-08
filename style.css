@@ -508,18 +508,18 @@ h3 {
     max-width: 1650px;
     margin: 0 auto;
   }
-  #franske {
+  #firstbank {
     padding: 5%;
     display: flex;
     justify-content: space-evenly;
   }
 
-  #franske p {
+  #firstbank p {
     font-family: "Montserrat", sans-serif;
     font-size: 1.2rem;
     line-height: 2rem;
   }
-  #franske h2 {
+  #firstbank h2 {
     padding-bottom: 1%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
@@ -528,7 +528,65 @@ h3 {
     padding-bottom: 7%;
   }
 
-  #franske h3 {
+  #firstbank h3 {
+    padding-bottom: 1%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: medium;
+    font-size: 1.7rem;
+    text-align: left;
+    padding: 0% 2% 2% 0%;
+  }
+
+  #secondbank {
+    padding: 5%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #secondbank p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  #secondbank h2 {
+    padding-bottom: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding-top: 5%;
+    padding-bottom: 7%;
+  }
+
+  #secondbank h3 {
+    padding-bottom: 1%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: medium;
+    font-size: 1.7rem;
+    text-align: left;
+    padding: 0% 2% 2% 0%;
+  }
+
+  #thirdbank {
+    padding: 5%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #thirdbank p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  #thirdbank h2 {
+    padding-bottom: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding-top: 5%;
+    padding-bottom: 7%;
+  }
+
+  #thirdbank h3 {
     padding-bottom: 1%;
     font-family: "Montserrat", sans-serif;
     font-weight: medium;
@@ -540,14 +598,22 @@ h3 {
     width: 33%;
   }
 
+  .imgbg {
+    background-color: #f2cf63;
+  }
+
   .titel {
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     font-size: 2.3rem;
-    font-weight: 100;
+    font-weight: 700;
   }
   #wrapper2 {
     max-width: 1500px;
     margin: 0 auto;
+  }
+
+  .pads {
+    padding-top: 15%;
   }
 }

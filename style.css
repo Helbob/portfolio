@@ -5,6 +5,10 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  background: #262626;
+}
 img {
   width: 100%;
 }
@@ -29,14 +33,16 @@ main {
   padding: 2%;
   text-align: justify;
   line-height: 1.7rem;
+  color: white;
 }
 #om_mig h2 {
   padding-bottom: 1%;
   padding-top: 10%;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   font-weight: 700;
   font-size: 2rem;
+  color: #f2cf63;
 }
 
 p {
@@ -44,25 +50,26 @@ p {
 }
 
 .cv h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   font-weight: 100;
   padding-top: 7%;
   padding-bottom: 7%;
   font-size: 2rem;
+  color: #f2cf63;
 }
 
 .first {
   border: 1px solid white;
   padding: 5%;
   width: 70%;
-  background-color: #f2cf63;
+  background-color: #f2c063;
   margin: 2%;
 }
 
 .second {
   border: 1px solid white;
-  background-color: black;
-  color: white;
+  background-color: #f2cf63;
+  color: black;
   padding: 5%;
   width: 70%;
 }
@@ -82,7 +89,7 @@ nav.shown {
   flex-flow: column;
   z-index: 2;
   position: absolute;
-  background-color: white;
+  background-color: #262626;
   width: 100%;
   height: 100%;
 }
@@ -134,13 +141,13 @@ li {
 a {
   font-size: 2rem;
   text-decoration: none;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   font-weight: 700;
-  color: black;
+  color: #f2cf63;
   letter-spacing: 1px;
 }
 a:visited {
-  color: black;
+  color: #f2cf63;
 }
 
 .toggle-btn {
@@ -158,30 +165,30 @@ a:visited {
 hr {
   width: 50%;
   margin: 0 auto;
+  border: #707070 solid 1px;
 }
 
 /* Alt i main mobil*/
 
 #white {
-  grid-row: 3;
+  color: #f2cf63;
+  grid-row: 2;
   text-align: center;
   grid-column: 2/5;
-  padding-top: 2%;
 }
 
 #black {
-  color: white;
+  color: #f2cf63;
   text-align: center;
-  grid-row: 4;
-  padding-top: 5%;
-  grid-column: 3/5;
+  grid-row: 3;
+  grid-column: 2/5;
 }
 
 h1 {
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: 700;
-  font-size: 6rem;
-  color: black;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: bold;
+  font-size: 8rem;
+  color: #f2cf63;
 }
 /* Projekter */
 
@@ -208,7 +215,7 @@ h3 {
 
 #grid {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 .container {
@@ -257,26 +264,26 @@ h3 {
   #white {
     grid-row: 2;
     text-align: center;
-    grid-column: 2/5;
-    padding-top: 2%;
+    grid-column: 1/5;
   }
 
   #black {
     text-align: center;
     grid-row: 3;
-    grid-column: 3/5;
-    padding: 3% 0% 3% 10%;
+    grid-column: 2/6;
+    padding-right: 7%;
   }
 
   h1 {
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 11rem;
-    font-weight: 700;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 12rem;
+    font-weight: bold;
+    color: #f2cf63;
   }
 
   #grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
   }
 
@@ -302,7 +309,7 @@ h3 {
     flex-flow: column;
     z-index: 2;
     position: absolute;
-    background-color: white;
+    background-color: #262626;
     width: 40%;
     height: 100%;
   }
@@ -329,13 +336,12 @@ h3 {
   a {
     font-size: 2.5rem;
     text-decoration: none;
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: medium;
-    color: black;
+    font-family: "Open Sans Condensed", sans-serif;
+    color: #f2cf63;
     letter-spacing: 1px;
   }
   a:visited {
-    color: black;
+    color: #f2cf63;
   }
 
   .toggle-btn {
@@ -351,9 +357,9 @@ h3 {
   }
 
   hr {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
-    border: black solid 1px;
+    border: #707070 solid 1px;
   }
 
   /* Om mig */
@@ -362,7 +368,6 @@ h3 {
     padding: 0%;
   }
   #wrapper {
-    background: #f2cf63;
     max-width: 1650px;
     margin: 0 auto;
   }
@@ -374,18 +379,20 @@ h3 {
   #om_mig p {
     font-family: "Montserrat", sans-serif;
     font-size: 1.2rem;
-    padding-right: 10%;
+    padding: 0%;
+    padding-right: 8%;
     text-align: justify;
     line-height: 1.7rem;
+    color: white;
   }
   #om_mig h2 {
     padding-bottom: 1%;
-    font-family: "Montserrat", sans-serif;
-    font-weight: medium;
-    padding-left: 2%;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: bold;
     font-size: 2.5rem;
     padding-top: 5%;
     text-align: left;
+    color: #f2cf63;
   }
   .test {
     width: 75%;
@@ -403,24 +410,25 @@ h3 {
   }
 
   .cv h2 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Open Sans Condensed", sans-serif;
     font-weight: 100;
     padding-top: 5%;
     padding-bottom: 3%;
     font-size: 2rem;
+    color: #f2cf63;
   }
   .first {
-    border: 1px solid white;
+    border: none;
     padding: 2%;
     width: 20%;
-    background-color: #f2cf63;
+    background-color: #f2c063;
     margin: 1%;
   }
 
   .second {
-    border: 1px solid white;
-    background-color: black;
-    color: white;
+    border: none;
+    background-color: #f2cf63;
+    color: black;
     padding: 2%;
     grid-row: 1;
     grid-column: 4;
@@ -445,17 +453,18 @@ h3 {
   }
 
   .border {
-    border: grey 1px solid;
+    border: 1px solid black;
     padding: 2%;
     margin: 2%;
   }
 
   h3 {
     padding: 3% 0% 0% 0%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Open Sans Condensed", sans-serif;
     font-weight: 700;
     font-size: 2.5rem;
     text-align: center;
+    color: #f2cf63;
   }
   .container {
     position: relative;
@@ -495,9 +504,9 @@ h3 {
   }
 
   #gallery a {
-    color: black;
-    font-family: "Montserrat", sans-serif;
-    font-size: 2rem;
+    color: #f2cf63;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 2.5rem;
   }
 
   main {
@@ -518,23 +527,25 @@ h3 {
     font-family: "Montserrat", sans-serif;
     font-size: 1.2rem;
     line-height: 2rem;
+    color: white;
   }
   #firstbank h2 {
     padding-bottom: 1%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Open Sans Condensed", sans-serif;
     font-weight: 700;
     font-size: 2.5rem;
     padding-top: 5%;
     padding-bottom: 7%;
+    color: #f2cf63;
   }
 
   #firstbank h3 {
     padding-bottom: 1%;
-    font-family: "Montserrat", sans-serif;
-    font-weight: medium;
-    font-size: 1.7rem;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 2rem;
     text-align: left;
     padding: 0% 2% 2% 0%;
+    color: white;
   }
 
   #secondbank {
@@ -547,10 +558,11 @@ h3 {
     font-family: "Montserrat", sans-serif;
     font-size: 1.2rem;
     line-height: 2rem;
+    color: white;
   }
   #secondbank h2 {
     padding-bottom: 1%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Open Sans Condensed", sans-serif;
     font-weight: 700;
     font-size: 2.5rem;
     padding-top: 5%;
@@ -559,11 +571,11 @@ h3 {
 
   #secondbank h3 {
     padding-bottom: 1%;
-    font-family: "Montserrat", sans-serif;
-    font-weight: medium;
-    font-size: 1.7rem;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 2rem;
     text-align: left;
     padding: 0% 2% 2% 0%;
+    color: white;
   }
 
   #thirdbank {
@@ -576,10 +588,11 @@ h3 {
     font-family: "Montserrat", sans-serif;
     font-size: 1.2rem;
     line-height: 2rem;
+    color: white;
   }
   #thirdbank h2 {
     padding-bottom: 1%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Open Sans Condensed", sans-serif;
     font-weight: 700;
     font-size: 2.5rem;
     padding-top: 5%;
@@ -588,11 +601,11 @@ h3 {
 
   #thirdbank h3 {
     padding-bottom: 1%;
-    font-family: "Montserrat", sans-serif;
-    font-weight: medium;
-    font-size: 1.7rem;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 2rem;
     text-align: left;
     padding: 0% 2% 2% 0%;
+    color: white;
   }
   .test2 {
     width: 33%;

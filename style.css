@@ -30,26 +30,33 @@ main {
   padding: 7%;
 }
 
+.firsts {
+  order: 1;
+}
+.seconds {
+  order: 2;
+}
+
 /*bank */
 .bgimgcolor {
   background: #f2cf63;
   max-width: 1650px;
   margin: 0 auto;
 }
-#firstbank {
+.right {
   padding: 5%;
   display: flex;
   flex-wrap: wrap;
 }
 
-#firstbank p {
+.right p {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   line-height: 2rem;
   color: white;
   padding-bottom: 15%;
 }
-#firstbank h2 {
+.right h2 {
   padding-bottom: 1%;
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: 700;
@@ -59,7 +66,7 @@ main {
   color: #f2cf63;
 }
 
-#firstbank h3 {
+.right h3 {
   padding-bottom: 1%;
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 2rem;
@@ -68,48 +75,25 @@ main {
   color: white;
 }
 
-#secondbank {
+.left {
   padding: 5%;
   display: flex;
   flex-wrap: wrap;
 }
 
-#secondbank p {
+.left p {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
   line-height: 2rem;
   color: white;
 }
 
-#secondbank h3 {
+.left h3 {
   padding-bottom: 1%;
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 2rem;
   text-align: left;
   padding: 10% 2% 5% 0%;
-  color: white;
-}
-
-#thirdbank {
-  padding: 5%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-#thirdbank p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
-  line-height: 2rem;
-  color: white;
-  padding-bottom: 10%;
-}
-
-#thirdbank h3 {
-  padding-bottom: 1%;
-  font-family: "Open Sans Condensed", sans-serif;
-  font-size: 2rem;
-  text-align: left;
-  padding: 0% 2% 2% 0%;
   color: white;
 }
 
@@ -118,35 +102,6 @@ main {
 }
 
 .titel {
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: left;
-  font-size: 2.3rem;
-  font-weight: 700;
-}
-#wrapper2 {
-  max-width: 1500px;
-  margin: 0 auto;
-}
-
-.pads {
-  padding-top: 15%;
-}
-
-/* All eco */
-#firstecopre {
-  padding: 5%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-#firstecopre p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
-  line-height: 2rem;
-  color: white;
-  padding-bottom: 15%;
-}
-#firstecopre h2 {
   padding-bottom: 1%;
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: 700;
@@ -155,174 +110,13 @@ main {
   padding-bottom: 7%;
   color: #f2cf63;
 }
-
-#firstecopre h3 {
-  padding-bottom: 1%;
-  font-family: "Open Sans Condensed", sans-serif;
-  font-size: 2rem;
-  text-align: left;
-  padding: 0% 2% 2% 0%;
-  color: white;
+#wrapper2 {
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
-#secondecopre {
-  padding: 5%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-#secondecopre p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
-  line-height: 2rem;
-  color: white;
-}
-
-#secondecopre h3 {
-  padding-bottom: 1%;
-  font-family: "Open Sans Condensed", sans-serif;
-  font-size: 2rem;
-  text-align: left;
-  padding: 10% 2% 5% 0%;
-  color: white;
-}
-
-#thirdecopre {
-  padding: 5%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-#thirdecopre p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
-  line-height: 2rem;
-  color: white;
-  padding-bottom: 10%;
-}
-
-#thirdecopre h3 {
-  padding-bottom: 1%;
-  font-family: "Open Sans Condensed", sans-serif;
-  font-size: 2rem;
-  text-align: left;
-  padding: 0% 2% 2% 0%;
-  color: white;
-}
-
-#fourthpre {
-  padding: 5%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-#fourthpre p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
-  line-height: 2rem;
-  color: white;
-  padding-bottom: 10%;
-}
-
-#fourthpre h3 {
-  padding-bottom: 1%;
-  font-family: "Open Sans Condensed", sans-serif;
-  font-size: 2rem;
-  text-align: left;
-  padding: 0% 2% 2% 0%;
-  color: white;
-}
-
-#fifthpre {
-  padding: 5%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-#fifthpre p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
-  line-height: 2rem;
-  color: white;
-  padding-bottom: 10%;
-}
-
-#fifthpre h3 {
-  padding-bottom: 1%;
-  font-family: "Open Sans Condensed", sans-serif;
-  font-size: 2rem;
-  text-align: left;
-  padding: 0% 2% 2% 0%;
-  color: white;
-}
-
-/* ALL ECO PROTOTYPE */
-#firstalleco {
-  padding: 5%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-#firstalleco p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
-  line-height: 2rem;
-  color: white;
-  padding-bottom: 10%;
-}
-
-#firstalleco h3 {
-  padding-bottom: 1%;
-  font-family: "Open Sans Condensed", sans-serif;
-  font-size: 2rem;
-  text-align: left;
-  padding: 0% 2% 2% 0%;
-  color: white;
-}
-
-#secondalleco {
-  padding: 5%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-#secondalleco p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
-  line-height: 2rem;
-  color: white;
-  padding-bottom: 10%;
-}
-
-#secondalleco h3 {
-  padding-bottom: 1%;
-  font-family: "Open Sans Condensed", sans-serif;
-  font-size: 2rem;
-  text-align: left;
-  padding: 0% 2% 2% 0%;
-  color: white;
-}
-#thirdalleco {
-  padding: 5%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-#thirdalleco p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
-  line-height: 2rem;
-  color: white;
-  padding-bottom: 10%;
-}
-
-#thirdalleco h3 {
-  padding-bottom: 1%;
-  font-family: "Open Sans Condensed", sans-serif;
-  font-size: 2rem;
-  text-align: left;
-  padding: 0% 2% 2% 0%;
-  color: white;
+.pads {
+  padding-top: 15%;
 }
 
 /* Om mig */
@@ -819,80 +613,7 @@ h3 {
     max-width: 1650px;
     margin: 0 auto;
   }
-  #firstbank {
-    padding: 5%;
-    display: flex;
-    justify-content: space-evenly;
-  }
 
-  #firstbank p {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.2rem;
-    line-height: 2rem;
-    color: white;
-  }
-  #firstbank h2 {
-    padding-bottom: 1%;
-    font-family: "Open Sans Condensed", sans-serif;
-    font-weight: 700;
-    font-size: 2.5rem;
-    padding-top: 5%;
-    padding-bottom: 7%;
-    color: #f2cf63;
-  }
-
-  #firstbank h3 {
-    padding-bottom: 1%;
-    font-family: "Open Sans Condensed", sans-serif;
-    font-size: 2rem;
-    text-align: left;
-    padding: 0% 2% 2% 0%;
-    color: white;
-  }
-
-  #secondbank {
-    padding: 5%;
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  #secondbank p {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.2rem;
-    line-height: 2rem;
-    color: white;
-  }
-
-  #secondbank h3 {
-    padding-bottom: 1%;
-    font-family: "Open Sans Condensed", sans-serif;
-    font-size: 2rem;
-    text-align: left;
-    padding: 0% 2% 2% 0%;
-    color: white;
-  }
-
-  #thirdbank {
-    padding: 5%;
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  #thirdbank p {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.2rem;
-    line-height: 2rem;
-    color: white;
-  }
-
-  #thirdbank h3 {
-    padding-bottom: 1%;
-    font-family: "Open Sans Condensed", sans-serif;
-    font-size: 2rem;
-    text-align: left;
-    padding: 0% 2% 2% 0%;
-    color: white;
-  }
   .test2 {
     width: 33%;
   }
@@ -902,166 +623,39 @@ h3 {
   }
 
   .titel {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    font-size: 2.3rem;
+    padding-bottom: 1%;
+    font-family: "Open Sans Condensed", sans-serif;
     font-weight: 700;
+    font-size: 2.5rem;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    color: #f2cf63;
   }
 
   .pads {
     padding-top: 15%;
   }
 
-  /* All Eco præsenstation */
-  #firstecopre {
-    padding: 5%;
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  #firstecopre p {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.2rem;
-    line-height: 2rem;
-    color: white;
-  }
-  #firstecopre h2 {
-    padding-bottom: 1%;
-    font-family: "Open Sans Condensed", sans-serif;
-    font-weight: 700;
-    font-size: 2.5rem;
-    padding-top: 5%;
-    padding-bottom: 7%;
-    color: #f2cf63;
-  }
-
-  #firstecopre h3 {
-    padding-bottom: 1%;
-    font-family: "Open Sans Condensed", sans-serif;
-    font-size: 2rem;
-    text-align: left;
-    padding: 0% 2% 2% 0%;
-    color: white;
-  }
-
-  #secondecopre {
-    padding: 5%;
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  #secondecopre p {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.2rem;
-    line-height: 2rem;
-    color: white;
-  }
-
-  #secondecopre h3 {
-    padding-bottom: 1%;
-    font-family: "Open Sans Condensed", sans-serif;
-    font-size: 2rem;
-    text-align: left;
-    padding: 0% 2% 2% 0%;
-    color: white;
-  }
-
-  #thirdecopre {
-    padding: 5%;
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  #thirdecopre p {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.2rem;
-    line-height: 2rem;
-    color: white;
-  }
-
-  #thirdecopre h3 {
-    padding-bottom: 1%;
-    font-family: "Open Sans Condensed", sans-serif;
-    font-size: 2rem;
-    text-align: left;
-    padding: 0% 2% 2% 0%;
-    color: white;
-  }
-
-  #fourthpre {
-    padding: 5%;
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  #fourthpre p {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.2rem;
-    line-height: 2rem;
-    color: white;
-  }
-
-  #fourthpre h3 {
-    padding-bottom: 1%;
-    font-family: "Open Sans Condensed", sans-serif;
-    font-size: 2rem;
-    text-align: left;
-    padding: 0% 2% 2% 0%;
-    color: white;
-  }
-
-  #fifthpre {
-    padding: 5%;
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  #fifthpre p {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.2rem;
-    line-height: 2rem;
-    color: white;
-  }
-
-  #fifthpre h3 {
-    padding-bottom: 1%;
-    font-family: "Open Sans Condensed", sans-serif;
-    font-size: 2rem;
-    text-align: left;
-    padding: 0% 2% 2% 0%;
-    color: white;
-  }
   .color {
     font-size: 1.2rem;
     color: white;
     font-family: "Montserrat", sans-serif;
   }
 
-  /* ALL ECO PROTOTYPE */
-
-  #firstalleco {
+  .left {
     padding: 5%;
     display: flex;
     justify-content: space-evenly;
   }
 
-  #firstalleco p {
+  .left p {
     font-family: "Montserrat", sans-serif;
     font-size: 1.2rem;
     line-height: 2rem;
     color: white;
   }
-  #firstalleco h2 {
-    padding-bottom: 1%;
-    font-family: "Open Sans Condensed", sans-serif;
-    font-weight: 700;
-    font-size: 2.5rem;
-    padding-top: 5%;
-    padding-bottom: 7%;
-    color: #f2cf63;
-  }
 
-  #firstalleco h3 {
+  .left h3 {
     padding-bottom: 1%;
     font-family: "Open Sans Condensed", sans-serif;
     font-size: 2rem;
@@ -1070,20 +664,20 @@ h3 {
     color: white;
   }
 
-  #secondalleco {
+  .right {
     padding: 5%;
     display: flex;
     justify-content: space-evenly;
   }
 
-  #secondalleco p {
+  .right p {
     font-family: "Montserrat", sans-serif;
     font-size: 1.2rem;
     line-height: 2rem;
     color: white;
   }
 
-  #secondalleco h3 {
+  .right h3 {
     padding-bottom: 1%;
     font-family: "Open Sans Condensed", sans-serif;
     font-size: 2rem;
@@ -1092,25 +686,10 @@ h3 {
     color: white;
   }
 
-  #thirdalleco {
-    padding: 5%;
-    display: flex;
-    justify-content: space-evenly;
+  .firsts {
+    order: -1;
   }
-
-  #thirdalleco p {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.2rem;
-    line-height: 2rem;
-    color: white;
-  }
-
-  #thirdalleco h3 {
-    padding-bottom: 1%;
-    font-family: "Open Sans Condensed", sans-serif;
-    font-size: 2rem;
-    text-align: left;
-    padding: 0% 2% 2% 0%;
-    color: white;
+  .seconds {
+    order: -1;
   }
 }

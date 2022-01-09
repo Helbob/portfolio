@@ -20,6 +20,11 @@ html {
 .ww {
   display: none;
 }
+.color {
+  font-size: 1.2rem;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
 
 main {
   padding: 7%;
@@ -197,6 +202,52 @@ main {
 }
 
 #thirdecopre h3 {
+  padding-bottom: 1%;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 2rem;
+  text-align: left;
+  padding: 0% 2% 2% 0%;
+  color: white;
+}
+
+#fourthpre {
+  padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#fourthpre p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: white;
+  padding-bottom: 10%;
+}
+
+#fourthpre h3 {
+  padding-bottom: 1%;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 2rem;
+  text-align: left;
+  padding: 0% 2% 2% 0%;
+  color: white;
+}
+
+#fifthpre {
+  padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#fifthpre p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: white;
+  padding-bottom: 10%;
+}
+
+#fifthpre h3 {
   padding-bottom: 1%;
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 2rem;
@@ -866,5 +917,54 @@ h3 {
     text-align: left;
     padding: 0% 2% 2% 0%;
     color: white;
+  }
+
+  #fourthpre {
+    padding: 5%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #fourthpre p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: white;
+  }
+
+  #fourthpre h3 {
+    padding-bottom: 1%;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 2rem;
+    text-align: left;
+    padding: 0% 2% 2% 0%;
+    color: white;
+  }
+
+  #fifthpre {
+    padding: 5%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #fifthpre p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: white;
+  }
+
+  #fifthpre h3 {
+    padding-bottom: 1%;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 2rem;
+    text-align: left;
+    padding: 0% 2% 2% 0%;
+    color: white;
+  }
+  .color {
+    font-size: 1.2rem;
+    color: white;
+    font-family: "Montserrat", sans-serif;
   }
 }

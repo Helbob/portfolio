@@ -301,10 +301,11 @@ h1 {
 
 h3 {
   padding: 3% 0% 0% 0%;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 100;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 700;
   font-size: 2rem;
   text-align: center;
+  color: #f2cf63;
 }
 
 #grid {
@@ -337,9 +338,9 @@ h3 {
 }
 
 #gallery a {
-  color: black;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.9rem;
+  color: #f2cf63;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 2rem;
   font-weight: 100;
 }
 
@@ -584,7 +585,7 @@ h3 {
   }
 
   .container:hover .image {
-    opacity: 0.5;
+    opacity: 0.3;
   }
 
   .container:hover .middle {
